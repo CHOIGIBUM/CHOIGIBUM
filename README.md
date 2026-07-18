@@ -3,7 +3,6 @@
 </p>
 
 <h1 align="center">Gibum Choi · 최기범</h1>
-
 <p align="center">
   Undergraduate Student<br/>
   AI Convergence · Precision Medicine Convergence<br/>
@@ -11,7 +10,7 @@
 </p>
 
 <p align="center">
-  Clinical Data Analysis · Precision Medicine · Digital Healthcare
+  Digital Healthcare · Precision Medicine · Computational & Statistical Genetics · Clinical Data Analysis / AI
 </p>
 
 ---
@@ -20,56 +19,59 @@
 
 Undergraduate student at **Kangwon National University**, majoring in **Artificial Intelligence Convergence** and double-majoring in **Precision Medicine Convergence**.
 
-I am interested in **clinical data analysis**, **precision medicine**, **digital healthcare**, and the statistical foundations needed to interpret biomedical data carefully.
+My research interests include **Digital Healthcare**, **Precision Medicine**, **Computational & Statistical Genetics**, and **Clinical Data Analysis / AI**.
 
 강원대학교 AI융합학과에 재학 중이며, 정밀의료융합을 복수전공하고 있습니다.
 
+---
+
 ## Selected Work
 
-### Clinical Data Analysis Portfolio *(in preparation)*
+> 아래 링크는 실제 저장소 이름에 맞게 수정해서 사용하세요.
 
-![Clinical Data Analysis](./assets/clinical-data-analysis.png)
+### Clinical Data Analysis
 
-Documentation-first portfolio of synthetic clinical data analyses.
+[![Clinical Data Analysis](./assets/clinical-data-analysis.png)](https://github.com/CHOIGIBUM/clinical-data-analysis-portfolio)
 
-- Alzheimer's EHR first-signal and record-based interval analysis
-- COVID-19 survival analysis using Kaplan-Meier and Cox proportional hazards models
-- Focus: cohort definition, variable definition, interpretation, and limitations
+Synthetic clinical data analyses covering an Alzheimer’s first-signal and record-based interval analysis, and a COVID-19 survival analysis.
 
-### [Munjin Talk-Talk](https://github.com/CHOIGIBUM/munjin-talk-talk-mvp)
+- **Alzheimer’s EHR**: 10-year lookback · first signal · 6 clinical domains · logistic regression
+- **COVID-19 Survival**: Kaplan–Meier curves · Cox proportional hazards model
+- **Awards**: Solo Project · Grand Prize, Oral Presentation / Team Project · Encouragement Award
+
+### Munjin Talk-Talk
 
 [![Munjin Talk-Talk](./assets/munjin-talk-talk.png)](https://github.com/CHOIGIBUM/munjin-talk-talk-mvp)
 
-A Gangwon-dialect AI pre-consultation MVP designed for an age-friendly healthcare environment.
+A Gangwon-dialect AI pre-consultation service designed for an age-friendly healthcare environment.
 
-- AWS serverless architecture with React, Lambda, API Gateway, DynamoDB, and S3
-- Amazon Transcribe Streaming and Amazon Bedrock-based analysis workflow
-- Constrained symptom matching with source-text validation and clinician review
+- AWS serverless · Transcribe Streaming
+- BM25 + vector hybrid matching · micro-F1 0.89
+- Privacy-aware data retention
+- **Role**: Team Project · System Design Lead · Excellence Award
 
-### [Campus Mate](https://github.com/CHOIGIBUM/Nexus_Harness_Eng)
+### Campus Mate
 
-[![Campus Mate](./assets/campus-mate.png)](https://github.com/CHOIGIBUM/Nexus_Harness_Eng)
+[![Campus Mate](./assets/campus-mate.png)](https://github.com/CHOIGIBUM/campus-mate-ai-agent)
 
-A local MVP for structuring student opportunity notices and connecting accepted items to schedule and briefing workflows.
+A multi-agent workflow that structures unstructured competition notices and connects personalized recommendations to schedule management.
 
-- Agent/Skill-based workflow for collection, parsing, ranking, dashboard sync, calendar sync, and briefing generation
-- Local JSON/Markdown adapters for API-free validation
-- Designed to be replaceable with real Notion, calendar, and notification integrations later
+- 6-Agent pipeline
+- HTML · OCR · Poster Vision parsing
+- Notion · Slack · Google Calendar integration
+- **Role**: Team Project · Architecture & Development Lead · Finalist
 
-## Tools & Methods
-
-- **Languages:** Python, JavaScript
-- **Data analysis:** pandas, NumPy, survival analysis, logistic regression
-- **Clinical/statistical methods:** Kaplan-Meier, Cox proportional hazards, cohort and variable definition
-- **Cloud & AI services:** AWS serverless services, Amazon Bedrock, Amazon Transcribe
-- **Research tools:** MATLAB, ITK-SNAP, nnU-Net
-
-## Current Focus
-
-- Strengthening foundations in genomics and biomedical data science
-- Building reproducible documentation for clinical data analysis projects
-- Improving portfolio repositories so each project clearly shows problem, method, role, result, and limitations
+---
 
 ## Contact
 
 - Email: [tjdnfi@kangwon.ac.kr](mailto:tjdnfi@kangwon.ac.kr)
+- CV: **Add your public CV link here**
+
+---
+
+## Notes
+
+- Replace the repository links with your final repository URLs.
+- If you do not want to expose a public CV link, remove the CV bullet above.
+- If the Clinical Data Analysis repository is not ready yet, you can temporarily comment out that section.

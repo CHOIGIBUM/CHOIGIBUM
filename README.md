@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/profile-banner.png" alt="Gibum Choi profile banner" width="100%" />
+</p>
+
 <h1 align="center">Gibum Choi · 최기범</h1>
 
 <p align="center">

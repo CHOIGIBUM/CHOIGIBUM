@@ -1,77 +1,66 @@
-<p align="center">
-  <img src="./assets/profile-banner.png" alt="Gibum Choi profile banner" width="100%" />
-</p>
-
 <h1 align="center">Gibum Choi · 최기범</h1>
+
 <p align="center">
-  Undergraduate Student<br/>
-  AI Convergence · Precision Medicine Convergence<br/>
-  Kangwon National University
+  Undergraduate Student at Kangwon National University<br/>
+  Artificial Intelligence Convergence · Precision Medicine Convergence
 </p>
 
 <p align="center">
-  Digital Healthcare · Precision Medicine · Computational & Statistical Genetics · Clinical Data Analysis / AI
+  <strong>Research Interests</strong><br/>
+  Digital Healthcare · Precision Medicine<br/>
+  Computational &amp; Statistical Genetics · Clinical Data Analysis / AI
 </p>
-
----
-
-## About
-
-Undergraduate student at **Kangwon National University**, majoring in **Artificial Intelligence Convergence** and double-majoring in **Precision Medicine Convergence**.
-
-My research interests include **Digital Healthcare**, **Precision Medicine**, **Computational & Statistical Genetics**, and **Clinical Data Analysis / AI**.
-
-강원대학교 AI융합학과에 재학 중이며, 정밀의료융합을 복수전공하고 있습니다.
 
 ---
 
 ## Selected Work
 
-> 아래 링크는 실제 저장소 이름에 맞게 수정해서 사용하세요.
+<p align="center">
+  <img src="./assets/clinical-data-analysis.png" alt="Clinical Data Analysis" width="100%" />
+</p>
 
-### Clinical Data Analysis
+Selected analyses using synthetic clinical data, focused on how cohort, time-axis, and variable definitions affect the interpretation of results.
 
-[![Clinical Data Analysis](./assets/clinical-data-analysis.png)](https://github.com/CHOIGIBUM/clinical-data-analysis-portfolio)
+- **Alzheimer’s EHR analysis** — Defined a 10-year lookback and first signal, mapped 24 candidate conditions into six clinical domains, and applied logistic regression considering event count and age.
+- **COVID-19 survival analysis** — Compared Kaplan–Meier curves by obesity status across four comorbidity cohorts and applied a Cox proportional hazards model.
+- **Recognition** — Grand Prize (Oral Presentation) for the Alzheimer’s project · Encouragement Award for the COVID-19 project
 
-Synthetic clinical data analyses covering an Alzheimer’s first-signal and record-based interval analysis, and a COVID-19 survival analysis.
+<br/>
 
-- **Alzheimer’s EHR**: 10-year lookback · first signal · 6 clinical domains · logistic regression
-- **COVID-19 Survival**: Kaplan–Meier curves · Cox proportional hazards model
-- **Awards**: Solo Project · Grand Prize, Oral Presentation / Team Project · Encouragement Award
-
-### Munjin Talk-Talk
-
-[![Munjin Talk-Talk](./assets/munjin-talk-talk.png)](https://github.com/CHOIGIBUM/munjin-talk-talk-mvp)
+<p align="center">
+  <a href="https://github.com/CHOIGIBUM/munjin-talk-talk-mvp">
+    <img src="./assets/munjin-talk-talk.png" alt="Munjin Talk-Talk" width="100%" />
+  </a>
+</p>
 
 A Gangwon-dialect AI pre-consultation service designed for an age-friendly healthcare environment.
 
-- AWS serverless · Transcribe Streaming
-- BM25 + vector hybrid matching · micro-F1 0.89
-- Privacy-aware data retention
-- **Role**: Team Project · System Design Lead · Excellence Award
+- Designed a real-time voice pre-consultation pipeline using AWS serverless services and Transcribe Streaming.
+- Designed standard symptom candidate matching with a BM25–vector hybrid structure (**micro-F1 0.89**).
+- Raw audio was not retained; session and text data were configured for automatic deletion after three days.
+- **Role** — Team · System Design Lead · Excellence Award
 
-### Campus Mate
+**Repository:** [munjin-talk-talk-mvp](https://github.com/CHOIGIBUM/munjin-talk-talk-mvp)
 
-[![Campus Mate](./assets/campus-mate.png)](https://github.com/CHOIGIBUM/campus-mate-ai-agent)
+<br/>
 
-A multi-agent workflow that structures unstructured competition notices and connects personalized recommendations to schedule management.
+<p align="center">
+  <a href="https://github.com/CHOIGIBUM/Nexus_Harness_Eng">
+    <img src="./assets/campus-mate.png" alt="Campus Mate" width="100%" />
+  </a>
+</p>
 
-- 6-Agent pipeline
-- HTML · OCR · Poster Vision parsing
-- Notion · Slack · Google Calendar integration
-- **Role**: Team Project · Architecture & Development Lead · Finalist
+A multi-agent workflow for collecting, parsing, recommending, and scheduling university competition information.
+
+- Designed and implemented the overall architecture of a six-agent pipeline for collection, parsing, recommendation, and schedule management.
+- Structured unstructured notices through HTML, OCR, and poster-vision multi-pass parsing, followed by relevance scoring.
+- Integrated Notion, Slack, and Google Calendar to automate the workflow from recommendation to schedule updates.
+- **Role** — Team · Architecture &amp; Development Lead · Finalist (7 of 12 Teams)
+
+**Repository:** [Nexus_Harness_Eng](https://github.com/CHOIGIBUM/Nexus_Harness_Eng)
 
 ---
 
 ## Contact
 
 - Email: [tjdnfi@kangwon.ac.kr](mailto:tjdnfi@kangwon.ac.kr)
-- CV: **Add your public CV link here**
-
----
-
-## Notes
-
-- Replace the repository links with your final repository URLs.
-- If you do not want to expose a public CV link, remove the CV bullet above.
-- If the Clinical Data Analysis repository is not ready yet, you can temporarily comment out that section.

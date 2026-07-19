@@ -10,6 +10,8 @@
 
 ---
 
+## Projects
+
 ### Alzheimer’s EHR Bottleneck Analysis
 
 <p align="center">

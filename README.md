@@ -10,8 +10,6 @@
 
 ---
 
-## Selected Research
-
 ### Alzheimer’s EHR Bottleneck Analysis
 
 <p align="center">
@@ -51,9 +49,7 @@ A survival analysis of obesity status and comorbidities among patients with COVI
 
 **Repository:** [covid19-survival-analysis](https://github.com/CHOIGIBUM/covid19-survival-analysis)
 
----
-
-## Selected Systems
+<br/>
 
 ### Munjin Talk-Talk
 
